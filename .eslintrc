@@ -1,0 +1,11 @@
+{
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+  "rules": {
+    "indent": ["error", 2],
+    "semi": [2, "always"],
+    "quotes": ["error", "single"],
+    "no-extra-semi": 2,
+    "strict": ["error", "global"],
+    "no-unused-vars": "error"
+  }
+}
